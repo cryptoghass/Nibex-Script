@@ -27,7 +27,7 @@ Steps generate your own private key.
 ## VPS installation
 ```
 wget -q https://github.com/CryptoNeverSleeps/Nibex-Script/raw/master/nibex-install.sh
-bash nibex_install.sh
+bash nibex-install.sh
 ```
 Once the VPS installation is finished.
 
