@@ -79,11 +79,11 @@ MN1 127.0.0.2:11122 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84
 * TxIndex:  **Second value from Step 6**
 9. Save and close the file.
 10. Go to **Masternode Tab**. If you tab is not shown, please enable it from: **Settings - Options - Wallet - Show Masternodes Tab**
-11. Click **Update status** to see your node. If it is not shown, close the wallet and start it again. Make sure the wallet is un
-12. Select your MN and click **Start Alias** to start it.
+11. Click **Update status** to see your node. If it is not shown, close the wallet and start it again. 
+12. Select your MN and right click on the masternode **Start Alias** to start it.
 13. Alternatively, open **Debug Console** and type:
 ```
-masternode start-alias MN1
+startmasternode alias 0 MN1 
 ``` 
 14. Login to your VPS and check your masternode status by running the following command:.
 ```
@@ -101,10 +101,10 @@ nibex-cli getinfo
 Also, if you want to check/start/stop **Nibex**, run one of the following commands as **root**:
 
 ```
-systemctl status Nibex          #To check if Nibex service is running  
-systemctl start Nibex           #To start Nibex service  
-systemctl stop Nibex            #To stop Nibex service  
-systemctl is-enabled Nibex      #To check if Nibex service is enabled on boot  
+systemctl status Nibex.service          #To check if Nibex service is running  
+systemctl start Nibex.service           #To start Nibex service  
+systemctl stop Nibex.service           #To stop Nibex service  
+systemctl is-enabled Nibex.service      #To check if Nibex service is enabled on boot  
 ```  
 ***
 
