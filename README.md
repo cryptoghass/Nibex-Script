@@ -1,6 +1,6 @@
 ![](https://cdn.discordapp.com/attachments/460803845614862337/462105794498789376/Nibex.png)
 
-# Nibex v2.0 Masternode Setup Guide [ Ubuntu 16.04 ]
+# Nibex v2.1 Masternode Setup Guide [ Ubuntu 16.04 ]
 
 THIS GUIDE IS FOR ROOT USERS -
 
@@ -18,7 +18,7 @@ Shell script to install a [Nibex Masternode](https://www.nibex.net/) on a Linux 
 **This script can generate a private key for you, or you can generate your own private key on the Desktop software.**
 
 Steps generate your own private key. 
-1.  Download and install Nibex v2.0 for Windows -   Download Link  - https://github.com/CryptoNeverSleeps/nibex/releases
+1.  Download and install Nibex v2.1 for Windows -   Download Link  - https://github.com/CryptoNeverSleeps/nibex/releases
 2.  Go to **Tools -> Click "Debug Console"** 
 3.  Type the following command: **masternode genkey**  
 4. You now have your generated **Private Key**  (MasternodePrivKey)
@@ -43,7 +43,7 @@ watch nibex-cli getinfo
 ```
 Make sure the version number matches.
 ```
-"version" : 2000000,     ------------------This is the latest version (Nibex v2.0)
+"version" : 2010000,     ------------------This is the latest version (Nibex v2.0)
 ```
 
 Once the block height matches the block explorer issue the following command.
